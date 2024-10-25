@@ -12,6 +12,7 @@
     --color-de-fondo: #F5F5F5;
     --color-de-fondo-menu: #ffffff;
     --color-de-link: #000000;
+    --color-de-fondo-sobremi: #eaf2fd;
 }
 
 body {
@@ -83,11 +84,16 @@ a {
 
 .presentacion__titulo,
 .presentacion__subtitulo{
-    padding: 2%;
+    padding: 3%;
+    font-size: 22px;
+}
+
+.presentacion__subtitulo{
+    font-size: 14px;
 }
 
 .redes{
-    padding: 2%;
+    padding: 3%;
     
     display: flex;
     flex-direction: row;
@@ -97,13 +103,79 @@ a {
 
 /* ------------------------------ Sección sobre mí ----------------------------------*/
 
+.sobre-mi{
+    background-color: var(--color-de-fondo-sobremi);
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sobre-mi__titulo{
+    padding: 3%;
+    font-size: 22px;
+}
+.sobre-mi__texto{
+    padding: 3%;
+    font-size: 14px;
+}
+
+.sobre-mi__firma{
+    padding: 2%;
+}
 
 /*------------------------------ Sección de Habilidades ------------------------------*/
 
+.habilidades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+}
+
+.habilidades__titulo{
+    font-size: 22px;
+    padding: 3%;
+}
+.habilidades__lista{
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    column-count: 2;
+    column-gap: 20px;
+}
+.habilidades__elemento{
+    width: 8rem;
+    height: 8rem;
+    background-color: white;
+    margin: 1rem;
+    
+}
 
 /*------------------------------ Sección de Aficiones --------------------------------*/
+.aficiones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+}
+.aficiones__titulo{
+    font-size: 22px;
+    padding: 3%;
+}
 
+.aficiones__lista{
+    column-count: 2;
+    column-gap: 20px;
+    width: 100%;
+}
 
+.aficiones__elemento{
+    width: 8rem;
+    height: 8rem;
+    background-color: var(--color-de-fondo-menu);
+    margin: 1rem;
+}
 /*------------------------------ Sección de Proyectos --------------------------------*/
 
 
