@@ -194,7 +194,7 @@ a {
 .aficiones__nombre{
     padding: 5%;
 }
-/*------------------------------ Sección de Proyectos --------------------------------*/
+/*------------------------------ Sección de Formacion Academica --------------------------------*/
 .formacion{
     background-color: var(--color-de-fondo-sobremi);
     display: flex;
@@ -226,6 +226,54 @@ a {
     max-height: 58px;
     background-color: var(--color-de-fondo);
 }
+/*------------------------------ Sección de Proyectos --------------------------------*/
+.proyectos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.proyectos__titulo{
+    font-size: 22px;
+    padding-top: 1rem;
+}
+
+.proyectos__contenedor{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 1rem;
+}
+
+.proyectos__imagen{
+    width: 75%;
+    padding: 1rem;
+}
+
+.proyectos__nombre, .proyectos__descripcion {
+    padding-left: 1rem;
+}
+
+.proyectos__botones{
+    display: flex;
+    padding-left: 1rem;
+    gap: 2rem;
+    padding-top: 0.5rem;
+}
+
+.proyectos__botones__repositorio{
+    background-color: #2a7ae4;
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+.proyectos__botones__verdemo{
+    /* background-color: #2a7ae4; */
+    padding: 0.5rem;
+    border-radius: 8px;
+    outline: auto;
+    outline-color: #2a7ae4;
+}
+
 /*------------------------------ Sección de Contacto ---------------------------------*/
 
 
