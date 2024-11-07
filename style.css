@@ -276,6 +276,43 @@ a {
 
 /*------------------------------ Sección de Contacto ---------------------------------*/
 
+.contacto{
+    background-color: var(--color-de-fondo-sobremi);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto__titulo{
+    font-size: 22px;
+    padding: 5%;
+}
+
+.contacto__formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contacto__campo{
+    padding: 5%;
+    box-shadow: 2px 2px 2px;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.contacto__campo--textarea{
+    padding-bottom: 60%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contacto__boton{
+    background-color: #2a7ae4;
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+
+
 
 /* ------------------------------ Responsividad ---------------------------------------*/
 
